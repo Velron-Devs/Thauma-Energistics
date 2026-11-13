@@ -1,0 +1,120 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "north": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#plate",
+          "tintindex": 3
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#flask",
+          "tintindex": 2
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#frame"
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#medium",
+          "tintindex": 2
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#dark",
+          "tintindex": 1
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    }
+  ],
+  "textures": {
+    "dark": "thaumaenergistics:part/essentia_terminal_dark",
+    "flask": "thaumaenergistics:part/essentia_terminal_flask",
+    "frame": "thaumaenergistics:part/essentia_terminal_frame",
+    "medium": "thaumaenergistics:part/essentia_terminal_medium",
+    "plate": "thaumaenergistics:part/essentia_terminal_plate"
+  }
+}

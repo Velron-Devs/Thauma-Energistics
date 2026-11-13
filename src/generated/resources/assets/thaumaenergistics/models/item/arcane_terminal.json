@@ -1,0 +1,170 @@
+{
+  "parent": "ae2:item/part_base",
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "texture": "#sides",
+          "uv": [
+            2.0,
+            14.0,
+            14.0,
+            16.0
+          ]
+        },
+        "east": {
+          "texture": "#sides",
+          "uv": [
+            14.0,
+            2.0,
+            16.0,
+            14.0
+          ]
+        },
+        "north": {
+          "texture": "#front_base"
+        },
+        "south": {
+          "texture": "#back"
+        },
+        "up": {
+          "texture": "#sides",
+          "uv": [
+            2.0,
+            0.0,
+            14.0,
+            2.0
+          ]
+        },
+        "west": {
+          "texture": "#sides",
+          "uv": [
+            0.0,
+            2.0,
+            2.0,
+            14.0
+          ]
+        }
+      },
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        14,
+        14,
+        9
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#layer0",
+          "tintindex": 2
+        }
+      },
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        14,
+        14,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#layer1"
+        }
+      },
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        14,
+        14,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#layer2",
+          "tintindex": 3
+        }
+      },
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        14,
+        14,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#layer3",
+          "tintindex": 1
+        }
+      },
+      "from": [
+        2,
+        2,
+        7
+      ],
+      "to": [
+        14,
+        14,
+        8
+      ]
+    },
+    {
+      "faces": {
+        "down": {
+          "texture": "#sides"
+        },
+        "east": {
+          "texture": "#sides"
+        },
+        "south": {
+          "texture": "#back"
+        },
+        "up": {
+          "texture": "#sides"
+        },
+        "west": {
+          "texture": "#sides"
+        }
+      },
+      "from": [
+        4,
+        4,
+        9
+      ],
+      "to": [
+        12,
+        12,
+        10
+      ]
+    }
+  ],
+  "textures": {
+    "back": "ae2:part/monitor_back",
+    "front_base": "ae2:part/monitor_front",
+    "layer0": "thaumaenergistics:part/arcane_terminal_panel",
+    "layer1": "thaumaenergistics:part/arcane_terminal_frame",
+    "layer2": "thaumaenergistics:part/arcane_terminal_dots",
+    "layer3": "thaumaenergistics:part/arcane_terminal_dark",
+    "sides": "ae2:part/monitor_sides"
+  }
+}

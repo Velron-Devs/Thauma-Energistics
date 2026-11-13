@@ -1,0 +1,49 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    },
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "matrix_tiers"
+    },
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "thaumaenergistics:feature",
+        "feature": "processors"
+      }
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_previous": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thaumaenergistics:assembler_matrix_speed_thaumium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumaenergistics:matrix/assembler_matrix_speed_brass_ae2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_previous"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumaenergistics:matrix/assembler_matrix_speed_brass_ae2"
+    ]
+  }
+}

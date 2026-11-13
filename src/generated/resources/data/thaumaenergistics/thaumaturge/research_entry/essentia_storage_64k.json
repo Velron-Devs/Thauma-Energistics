@@ -1,0 +1,69 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -8,
+  "complexity": 2,
+  "icons": [
+    "thaumaenergistics:essentia_component_64k",
+    "thaumaenergistics:essentia_cell_64k"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_storage_64k.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:potentia"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_storage_16k"
+  ],
+  "row": 0,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 4,
+          "items": "thaumaturge:salis_mundus"
+        },
+        {
+          "amount": 3,
+          "items": "thaumaenergistics:essentia_component_16k"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:quartz_glass"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:engineering_processor"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_64k.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:arcane_workbench/essentia_component_64k",
+        "thaumaenergistics:cells/essentia_cell_64k",
+        "thaumaenergistics:cells/essentia_cell_64k_from_housing"
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_64k.stage_1"
+    }
+  ]
+}

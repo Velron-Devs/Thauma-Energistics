@@ -1,0 +1,228 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = minecraft_version + "-" + mod_version + "-" + tag_lanzador
+group = mod_group_id
+
+base {
+    archivesName = mod_name
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+neoForge {
+    version = project.neo_version
+
+    parchment {
+        minecraftVersion = project.parchment_minecraft_version
+        mappingsVersion = project.parchment_mappings_version
+    }
+
+    runs {
+        client {
+            client()
+            if (project.hasProperty('quickPlayWorld')) {
+                programArguments.addAll '--quickPlaySingleplayer', project.property('quickPlayWorld')
+            }
+        }
+        data {
+            data()
+            programArguments.addAll '--mod', mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath(), '--existing', file('resources2/').getAbsolutePath(), '--existing-mod', 'ae2', '--existing-mod', 'thaumaturge', '--existing-mod', 'megacells', '--existing-mod', 'ae2things', '--existing-mod', 'ae2_mega_things', '--existing-mod', 'extendedae'
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    srcDir 'resources2'
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+repositories {
+    mavenLocal()
+    maven { url = 'https://maven.blamejared.com' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    maven { url = 'https://maven.terraformersmc.com/releases/' }
+    maven { url = 'https://maven.shedaniel.me/' }
+    maven { url = 'https://maven.k-4u.nl/' }
+    maven {
+        url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+        content {
+            includeGroup 'software.bernie.geckolib'
+        }
+    }
+    exclusiveContent {
+        forRepository {
+            maven { url = 'https://cursemaven.com' }
+        }
+        filter {
+            includeGroup 'curse.maven'
+        }
+    }
+}
+
+def ae2wtlibApi = files(provider {
+    configurations.detachedConfiguration(dependencies.create("curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"))
+        .files.collect { zipTree(it).matching { include 'META-INF/jarjar/*ae2wtlib_api*.jar' } }
+})
+
+dependencies {
+    //Applied Energistics 2
+    compileOnly "curse.maven:applied-energistics-2-223794:${ae2_version_id}"
+    localRuntime "curse.maven:applied-energistics-2-223794:${ae2_version_id}"
+
+    //AE2 Wireless Terminal Library (optional)
+    compileOnly "curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"
+    compileOnly ae2wtlibApi
+    localRuntime "curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"
+
+    //GuideMe
+    compileOnly "curse.maven:guideme-1173950:${guideme_version_id}"
+    localRuntime "curse.maven:guideme-1173950:${guideme_version_id}"
+    
+    //LithoStitched
+    compileOnly "curse.maven:lithostitched-936015:${lithostitched_version_id}"
+    localRuntime "curse.maven:lithostitched-936015:${lithostitched_version_id}"
+
+    //MEGA Cells (optional)
+    compileOnly "curse.maven:mega-cells-622112:${megacells_version_id}"
+    localRuntime "curse.maven:mega-cells-622112:${megacells_version_id}"
+
+    //AE2 Things (optional)
+    compileOnly "curse.maven:ae2-things-forge-609977:${ae2things_version_id}"
+    localRuntime "curse.maven:ae2-things-forge-609977:${ae2things_version_id}"
+
+    //AE2 MEGA Things (optional, only needed at runtime) and the Kotlin for Forge it needs
+    localRuntime "curse.maven:ae2-mega-things-1150075:${ae2megathings_version_id}"
+    localRuntime "curse.maven:kotlin-for-forge-351264:${kotlinforforge_version_id}"
+
+    //ExtendedAE and Glodium (optional)
+    compileOnly "curse.maven:glodium-957920:${glodium_version_id}"
+    localRuntime "curse.maven:glodium-957920:${glodium_version_id}"
+    compileOnly "curse.maven:extendedae-892005:${extendedae_version_id}"
+    localRuntime "curse.maven:extendedae-892005:${extendedae_version_id}"
+
+    //Advanced AE (optional, only data is added for it) and GeckoLib
+    localRuntime "curse.maven:advancedae-1084104:${advancedae_version_id}"
+    localRuntime "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
+
+    // Thaumaturge
+    compileOnly "curse.maven:thaumaturge-1628024:${thaumaturge_version_id}"
+    localRuntime "curse.maven:thaumaturge-1628024:${thaumaturge_version_id}"
+
+    // Curios API
+    compileOnly "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+    localRuntime "top.theillusivec4.curios:curios-neoforge:${curios_version}"
+
+    // JEI API
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+
+     // Runtime dependencies for the item list mod
+     switch (runtime_itemlist_mod) {
+        case "emi":
+            runtimeOnly "dev.emi:emi-neoforge:${emi_version}"
+            break
+        case "rei":
+            runtimeOnly "me.shedaniel:RoughlyEnoughItems-neoforge:${rei_version}"
+            break
+        case "jei":
+            runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+            break
+    }
+
+    // Runtime dependencies for the probe mod
+    switch (runtime_probe_mod) {
+        case "jade":
+            runtimeOnly "curse.maven:jade-324717:${jade_version_id}"
+            break
+        case "top":
+            runtimeOnly "mcjty.theoneprobe:theoneprobe:${top_version}"
+            break
+    }
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+    exclude 'assets/thaumicenergistics/**'
+    exclude '**/.gitkeep'
+    from('resources2')
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_named              : mod_named,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description,
+            jei_version          : jei_version,
+            emi_version          : emi_version,
+            rei_version          : rei_version,
+            // rrv_version          : rrv_version,
+            thaumaturge_version    : thaumaturge_version, 
+            lithostitched_version    : lithostitched_version,
+            curios_version          : curios_version,
+            avaritia_version   : avaritia_version,
+            guideme_version          : guideme_version,
+            ae2_version          : ae2_version,
+            solarfluxreborn_version          : solarfluxreborn_version,
+            hammerlib_version          : hammerlib_version,
+            mekanism_version          : mekanism_version,
+            megacells_version        : megacells_version,
+            ae2things_version        : ae2things_version,
+            ae2megathings_version    : ae2megathings_version,
+            extendedae_version       : extendedae_version,
+            advancedae_version       : advancedae_version,
+    ]   
+    inputs.properties replaceProperties
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand replaceProperties
+    }
+}
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+            "Specification-Title"   : mod_name,
+            "Specification-Vendor"  : mod_authors,
+            "Specification-Version" : "1",
+            "Implementation-Title"  : project.name,
+            "Implementation-Version": project.version,
+            "Implementation-Vendor" : mod_authors,
+        ])
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

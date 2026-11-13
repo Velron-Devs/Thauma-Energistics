@@ -1,0 +1,53 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "down": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#indicator",
+          "tintindex": 1
+        },
+        "east": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#indicator",
+          "tintindex": 1
+        },
+        "up": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#indicator",
+          "tintindex": 1
+        },
+        "west": {
+          "neoforge_data": {
+            "block_light": 15,
+            "sky_light": 15
+          },
+          "texture": "#indicator",
+          "tintindex": 1
+        }
+      },
+      "from": [
+        5,
+        5,
+        2
+      ],
+      "to": [
+        11,
+        11,
+        3
+      ]
+    }
+  ],
+  "textures": {
+    "indicator": "ae2:part/monitor_sides_status_has_channel"
+  }
+}

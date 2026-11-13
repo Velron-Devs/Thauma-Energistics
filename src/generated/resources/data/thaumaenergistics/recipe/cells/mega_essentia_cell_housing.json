@@ -1,0 +1,34 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "megacells"
+    },
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "mega_cells"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "ae2:quartz_vibrant_glass"
+    },
+    "b": {
+      "item": "thaumaturge:salis_mundus"
+    },
+    "d": {
+      "item": "thaumaturge:ingot_void"
+    }
+  },
+  "pattern": [
+    "aba",
+    "b b",
+    "ddd"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:mega_essentia_cell_housing"
+  }
+}

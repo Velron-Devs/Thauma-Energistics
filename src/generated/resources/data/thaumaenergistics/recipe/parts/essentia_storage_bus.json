@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "thaumaenergistics:coalescence_core"
+    },
+    "D": {
+      "item": "thaumaenergistics:diffusion_core"
+    },
+    "S": {
+      "item": "ae2:storage_bus"
+    }
+  },
+  "pattern": [
+    "DSC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:essentia_storage_bus"
+  }
+}

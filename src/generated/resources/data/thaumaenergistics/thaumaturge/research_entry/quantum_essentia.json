@@ -1,0 +1,45 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 0,
+  "icons": [
+    "thaumaturge:salis_mundus",
+    "ae2:pattern_provider"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.quantum_essentia.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:alienis"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:cognitio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:digisentia"
+  ],
+  "row": -4,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.quantum_essentia.stage_0"
+    },
+    {
+      "text": "research.thaumaenergistics.quantum_essentia.stage_1"
+    }
+  ]
+}

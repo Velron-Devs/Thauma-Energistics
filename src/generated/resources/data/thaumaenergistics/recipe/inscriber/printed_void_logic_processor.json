@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": {
+      "item": "thaumaturge:plate_void"
+    },
+    "top": {
+      "item": "ae2:logic_processor_press"
+    }
+  },
+  "mode": "inscribe",
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:printed_void_logic_processor"
+  }
+}

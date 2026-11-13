@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "tag": "c:dusts/redstone"
+    },
+    "top": {
+      "item": "thaumaenergistics:printed_thaumium_calculation_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:thaumium_calculation_processor"
+  }
+}

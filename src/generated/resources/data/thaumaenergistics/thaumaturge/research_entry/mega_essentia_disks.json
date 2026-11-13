@@ -1,0 +1,64 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -6,
+  "complexity": 3,
+  "icons": [
+    "thaumaenergistics:essentia_component_256k",
+    "thaumaenergistics:void_engineering_processor"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.mega_essentia_disks.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:vacuos"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_disks"
+  ],
+  "row": 2,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "thaumaenergistics:essentia_component_256k"
+        },
+        {
+          "amount": 4,
+          "items": "thaumaturge:salis_mundus"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 3,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.mega_essentia_disks.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:disks/mega_essentia_disk_housing",
+        "thaumaenergistics:disks/essentia_disk_1m",
+        "thaumaenergistics:disks/essentia_disk_4m",
+        "thaumaenergistics:disks/essentia_disk_16m",
+        "thaumaenergistics:disks/essentia_disk_64m",
+        "thaumaenergistics:disks/essentia_disk_256m"
+      ],
+      "text": "research.thaumaenergistics.mega_essentia_disks.stage_1"
+    }
+  ]
+}

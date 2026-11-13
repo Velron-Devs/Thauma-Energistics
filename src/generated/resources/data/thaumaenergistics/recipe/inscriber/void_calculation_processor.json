@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "thaumaenergistics:brass_calculation_processor"
+    },
+    "top": {
+      "item": "thaumaenergistics:printed_void_calculation_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:void_calculation_processor"
+  }
+}

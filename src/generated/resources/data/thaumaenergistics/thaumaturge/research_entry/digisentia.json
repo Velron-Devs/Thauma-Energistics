@@ -1,0 +1,71 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 0,
+  "icons": [
+    "thaumaenergistics:coalescence_core",
+    "thaumaenergistics:diffusion_core"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.digisentia.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:cognitio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:base_energistics"
+  ],
+  "row": -2,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "ae2:formation_core"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:annihilation_core"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:certus_quartz_crystal"
+        },
+        {
+          "amount": 1,
+          "items": "minecraft:quartz"
+        },
+        {
+          "amount": 2,
+          "items": "thaumaturge:quicksilver"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.digisentia.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:arcane_workbench/diffusion_core",
+        "thaumaenergistics:arcane_workbench/coalescence_core"
+      ],
+      "text": "research.thaumaenergistics.digisentia.stage_1"
+    }
+  ]
+}

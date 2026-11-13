@@ -1,0 +1,55 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -2,
+  "icons": [
+    "thaumaenergistics:thaumium_logic_processor",
+    "thaumaenergistics:void_engineering_processor"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.thaumic_processors.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:metallum"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_storage_1k"
+  ],
+  "row": 2,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 2,
+          "items": "thaumaturge:plate_thaumium"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:printed_silicon"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.thaumic_processors.stage_0"
+    },
+    {
+      "text": "research.thaumaenergistics.thaumic_processors.stage_1"
+    }
+  ]
+}

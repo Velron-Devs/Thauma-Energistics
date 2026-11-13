@@ -1,0 +1,1876 @@
+{
+  "values": {
+    "advanced_ae:adv_pattern_encoder": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:metallum"
+        }
+      ]
+    },
+    "advanced_ae:adv_pattern_provider": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:permutatio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:metallum"
+        }
+      ]
+    },
+    "advanced_ae:adv_pattern_provider_capacity_upgrade": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:vacuos"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:adv_pattern_provider_part": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:adv_pattern_provider_upgrade": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:adv_processing_pattern": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:machina"
+        }
+      ]
+    },
+    "advanced_ae:advanced_io_bus_part": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:permutatio"
+        },
+        {
+          "amount": 3,
+          "aspect": "thaumaturge:potentia"
+        }
+      ]
+    },
+    "advanced_ae:attack_speed_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:aversio"
+        }
+      ]
+    },
+    "advanced_ae:auto_feeding_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:victus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:desiderium"
+        }
+      ]
+    },
+    "advanced_ae:auto_stock_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:camo_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:lux"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:tenebrae"
+        }
+      ]
+    },
+    "advanced_ae:data_entangler": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:evasion_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:praemunio"
+        }
+      ]
+    },
+    "advanced_ae:flight_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:volatus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:potentia"
+        }
+      ]
+    },
+    "advanced_ae:flight_drift_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:volatus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    },
+    "advanced_ae:hp_buffer_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:victus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:praemunio"
+        }
+      ]
+    },
+    "advanced_ae:import_export_bus_part": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:jump_height_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:aer"
+        }
+      ]
+    },
+    "advanced_ae:lava_immunity_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:praemunio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ignis"
+        }
+      ]
+    },
+    "advanced_ae:luck_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:auram"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:praecantatio"
+        }
+      ]
+    },
+    "advanced_ae:magnet_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:vinculum"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    },
+    "advanced_ae:night_vision_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:lux"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:sensus"
+        }
+      ]
+    },
+    "advanced_ae:pick_craft_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:fabrico"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:instrumentum"
+        }
+      ]
+    },
+    "advanced_ae:portable_workbench_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:fabrico"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:instrumentum"
+        }
+      ]
+    },
+    "advanced_ae:printed_quantum_processor": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_accelerator": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 24,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy_block": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 24,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy_plate": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 3,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy_slab": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 7,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy_stairs": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 18,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_alloy_wall": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 18,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_boots": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:praemunio"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    },
+    "advanced_ae:quantum_chestplate": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 24,
+          "aspect": "thaumaturge:praemunio"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:victus"
+        }
+      ]
+    },
+    "advanced_ae:quantum_core": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 20,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_crafter": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:fabrico"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_crafter_terminal": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:fabrico"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:cognitio"
+        }
+      ]
+    },
+    "advanced_ae:quantum_helmet": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 16,
+          "aspect": "thaumaturge:praemunio"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:cognitio"
+        }
+      ]
+    },
+    "advanced_ae:quantum_infused_dust": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:perditio"
+        }
+      ]
+    },
+    "advanced_ae:quantum_infusion_block": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:aqua"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:quantum_infusion_bucket": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:aqua"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:metallum"
+        }
+      ]
+    },
+    "advanced_ae:quantum_leggings": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 20,
+          "aspect": "thaumaturge:praemunio"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    },
+    "advanced_ae:quantum_multi_threader": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 18,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:alienis"
+        }
+      ]
+    },
+    "advanced_ae:quantum_processor": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:cognitio"
+        }
+      ]
+    },
+    "advanced_ae:quantum_processor_press": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:metallum"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_storage_128": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 20,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 20,
+          "aspect": "thaumaturge:vacuos"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_storage_256": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 24,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 24,
+          "aspect": "thaumaturge:vacuos"
+        },
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_storage_component": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:vacuos"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_structure": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:vitreus"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_unit": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:quantum_upgrade_base": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:praecantatio"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 3,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:reach_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:cognitio"
+        }
+      ]
+    },
+    "advanced_ae:reaction_chamber": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:permutatio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:praecantatio"
+        }
+      ]
+    },
+    "advanced_ae:recharging_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    },
+    "advanced_ae:regeneration_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:victus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:praecantatio"
+        }
+      ]
+    },
+    "advanced_ae:shattered_singularity": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 20,
+          "aspect": "thaumaturge:alienis"
+        },
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:potentia"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:vacuos"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:perditio"
+        }
+      ]
+    },
+    "advanced_ae:small_adv_pattern_provider": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 12,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:permutatio"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:metallum"
+        }
+      ]
+    },
+    "advanced_ae:small_adv_pattern_provider_part": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:ordo"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:permutatio"
+        }
+      ]
+    },
+    "advanced_ae:sprint_speed_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:aer"
+        }
+      ]
+    },
+    "advanced_ae:step_assist_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:terra"
+        }
+      ]
+    },
+    "advanced_ae:stock_export_bus_part": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 3,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:strength_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:aversio"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:potentia"
+        }
+      ]
+    },
+    "advanced_ae:swim_speed_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:aqua"
+        }
+      ]
+    },
+    "advanced_ae:throughput_monitor": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:lux"
+        }
+      ]
+    },
+    "advanced_ae:throughput_monitor_configurator": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:ordo"
+        }
+      ]
+    },
+    "advanced_ae:walk_speed_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:motus"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:terra"
+        }
+      ]
+    },
+    "advanced_ae:water_breathing_card": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 8,
+          "aspect": "thaumaturge:aqua"
+        },
+        {
+          "amount": 4,
+          "aspect": "thaumaturge:aer"
+        }
+      ]
+    },
+    "advanced_ae:wireless_quantum_crafter_terminal": {
+      "neoforge:conditions": [
+        {
+          "type": "neoforge:mod_loaded",
+          "modid": "advanced_ae"
+        },
+        {
+          "type": "thaumaenergistics:feature",
+          "feature": "advanced_ae_aspects"
+        }
+      ],
+      "neoforge:value": [
+        {
+          "amount": 14,
+          "aspect": "thaumaturge:machina"
+        },
+        {
+          "amount": 10,
+          "aspect": "thaumaturge:fabrico"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:cognitio"
+        },
+        {
+          "amount": 6,
+          "aspect": "thaumaturge:motus"
+        }
+      ]
+    }
+  }
+}

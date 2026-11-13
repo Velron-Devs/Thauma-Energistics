@@ -1,0 +1,37 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 0,
+  "icons": [
+    "thaumaenergistics:essentia_cell_64k"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.base_energistics.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:permutatio"
+    }
+  ],
+  "parents": [
+    "thaumaturge:unlock_artifice"
+  ],
+  "row": 0,
+  "stages": [
+    {
+      "required_research": [
+        "thaumaenergistics:f_ae_core"
+      ],
+      "text": "research.thaumaenergistics.base_energistics.stage_0"
+    }
+  ]
+}

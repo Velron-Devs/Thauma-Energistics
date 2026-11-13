@@ -1,0 +1,65 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 0,
+  "complexity": 2,
+  "icons": [
+    "thaumaturge:plate_thaumium",
+    "ae2:cell_component_16k"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.infinity_cells.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:vacuos"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:thaumic_processors"
+  ],
+  "row": 4,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 3,
+          "items": "thaumaturge:plate_thaumium"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:cell_component_16k"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.infinity_cells.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:infinity_cells/infinity_cell_arcane_stone",
+        "thaumaenergistics:infinity_cells/infinity_cell_terra",
+        "thaumaenergistics:infinity_cells/infinity_cell_ignis",
+        "thaumaenergistics:infinity_cells/infinity_cell_aer",
+        "thaumaenergistics:infinity_cells/infinity_cell_aqua",
+        "thaumaenergistics:infinity_cells/infinity_cell_ordo",
+        "thaumaenergistics:infinity_cells/infinity_cell_perditio"
+      ],
+      "text": "research.thaumaenergistics.infinity_cells.stage_1"
+    }
+  ]
+}

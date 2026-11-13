@@ -1,0 +1,64 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -2,
+  "icons": [
+    "thaumaenergistics:essentia_component_1k",
+    "thaumaenergistics:essentia_cell_1k"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_storage_1k.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:vacuos"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:base_energistics"
+  ],
+  "row": 0,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 4,
+          "items": "thaumaturge:salis_mundus"
+        },
+        {
+          "amount": 4,
+          "items": "ae2:certus_quartz_crystal"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:logic_processor"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_1k.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:arcane_workbench/essentia_component_1k",
+        "thaumaenergistics:cells/essentia_cell_1k",
+        "thaumaenergistics:cells/essentia_cell_1k_from_housing"
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_1k.stage_1"
+    }
+  ]
+}

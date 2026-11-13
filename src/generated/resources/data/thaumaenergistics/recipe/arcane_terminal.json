@@ -1,0 +1,30 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "C": {
+      "item": "thaumaenergistics:coalescence_core"
+    },
+    "D": {
+      "item": "thaumaenergistics:diffusion_core"
+    },
+    "T": {
+      "item": "ae2:crafting_terminal"
+    },
+    "W": {
+      "item": "thaumaturge:arcane_workbench"
+    }
+  },
+  "pattern": [
+    "DTC",
+    " W "
+  ],
+  "research": {
+    "entry": "thaumaenergistics:arcane_terminal"
+  },
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:arcane_terminal"
+  },
+  "vis": 50
+}

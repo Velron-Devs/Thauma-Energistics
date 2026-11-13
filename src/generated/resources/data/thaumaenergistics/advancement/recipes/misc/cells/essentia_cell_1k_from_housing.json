@@ -1,0 +1,43 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_component": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thaumaenergistics:essentia_component_1k"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_housing": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:item_cell_housing"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumaenergistics:cells/essentia_cell_1k_from_housing"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_component",
+      "has_housing"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumaenergistics:cells/essentia_cell_1k_from_housing"
+    ]
+  }
+}

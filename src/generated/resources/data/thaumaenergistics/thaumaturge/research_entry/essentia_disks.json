@@ -1,0 +1,62 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -4,
+  "complexity": 2,
+  "icons": [
+    "thaumaenergistics:essentia_component_4k"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_disks.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:ordo"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:thaumic_processors"
+  ],
+  "row": 2,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "thaumaenergistics:essentia_component_4k"
+        },
+        {
+          "amount": 4,
+          "items": "thaumaturge:salis_mundus"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_disks.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:disks/essentia_disk_1k",
+        "thaumaenergistics:disks/essentia_disk_4k",
+        "thaumaenergistics:disks/essentia_disk_16k",
+        "thaumaenergistics:disks/essentia_disk_64k",
+        "thaumaenergistics:disks/essentia_disk_256k"
+      ],
+      "text": "research.thaumaenergistics.essentia_disks.stage_1"
+    }
+  ]
+}

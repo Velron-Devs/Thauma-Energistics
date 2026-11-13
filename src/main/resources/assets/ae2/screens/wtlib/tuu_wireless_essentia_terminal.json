@@ -1,0 +1,7 @@
+{
+  "$schema": "schema.json",
+  "includes": [
+    "../terminals/tuu_essentia_terminal.json",
+    "universal_terminal.json"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -2,
+  "complexity": 3,
+  "icons": [
+    "ae2:molecular_assembler",
+    "thaumaenergistics:thaumium_engineering_processor"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.matrix_tiers.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:fabrico"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:metallum"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:thaumic_processors"
+  ],
+  "row": 4,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 4,
+          "items": "thaumaturge:plate_thaumium"
+        },
+        {
+          "amount": 2,
+          "items": "ae2:fluix_crystal"
+        },
+        {
+          "amount": 1,
+          "items": "thaumaenergistics:thaumium_engineering_processor"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.matrix_tiers.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:matrix/assembler_matrix_crafter_thaumium",
+        "thaumaenergistics:matrix/assembler_matrix_crafter_brass",
+        "thaumaenergistics:matrix/assembler_matrix_crafter_void",
+        "thaumaenergistics:matrix/assembler_matrix_pattern_thaumium",
+        "thaumaenergistics:matrix/assembler_matrix_pattern_brass",
+        "thaumaenergistics:matrix/assembler_matrix_pattern_void",
+        "thaumaenergistics:matrix/assembler_matrix_speed_thaumium",
+        "thaumaenergistics:matrix/assembler_matrix_speed_brass",
+        "thaumaenergistics:matrix/assembler_matrix_speed_void"
+      ],
+      "text": "research.thaumaenergistics.matrix_tiers.stage_1"
+    }
+  ]
+}

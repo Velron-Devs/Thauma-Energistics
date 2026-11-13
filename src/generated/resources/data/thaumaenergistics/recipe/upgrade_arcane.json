@@ -1,0 +1,24 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "A": {
+      "item": "ae2:advanced_card"
+    },
+    "W": {
+      "item": "thaumaturge:arcane_workbench_charger"
+    }
+  },
+  "pattern": [
+    "A",
+    "W"
+  ],
+  "research": {
+    "entry": "thaumaenergistics:arcane_charging_upgrade"
+  },
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:upgrade_arcane"
+  },
+  "vis": 25
+}

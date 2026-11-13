@@ -1,0 +1,43 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    },
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "infinity_cells"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "ae2:quartz_glass"
+    },
+    "I": {
+      "item": "thaumaturge:plate_thaumium"
+    },
+    "M": {
+      "type": "neoforge:components",
+      "components": {
+        "thaumaturge:crystal_aspect": {
+          "aspect": "thaumaturge:ordo"
+        }
+      },
+      "items": "thaumaturge:essentia_crystal"
+    },
+    "X": {
+      "item": "ae2:cell_component_16k"
+    }
+  },
+  "pattern": [
+    "CMC",
+    "MXM",
+    "III"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:infinity_cell_ordo"
+  }
+}

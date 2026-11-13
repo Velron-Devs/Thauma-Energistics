@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "bottom": {
+      "item": "ae2:printed_silicon"
+    },
+    "middle": {
+      "item": "thaumaenergistics:thaumium_logic_processor"
+    },
+    "top": {
+      "item": "thaumaenergistics:printed_brass_logic_processor"
+    }
+  },
+  "mode": "press",
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:brass_logic_processor"
+  }
+}

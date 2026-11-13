@@ -1,0 +1,40 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "thaumaenergistics:feature",
+        "feature": "processors"
+      }
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "C": {
+      "item": "thaumaenergistics:essentia_component_64k"
+    },
+    "G": {
+      "item": "ae2:quartz_glass"
+    },
+    "P": {
+      "item": "ae2:engineering_processor"
+    },
+    "S": {
+      "item": "thaumaturge:salis_mundus"
+    }
+  },
+  "pattern": [
+    "SPS",
+    "CGC",
+    "SCS"
+  ],
+  "research": {
+    "entry": "thaumaenergistics:essentia_storage_256k"
+  },
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:essentia_component_256k"
+  },
+  "vis": 10
+}

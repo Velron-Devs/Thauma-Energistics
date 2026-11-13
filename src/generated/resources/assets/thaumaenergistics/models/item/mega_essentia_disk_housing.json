@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaenergistics:item/disk/mega_essentia_disk_housing"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "ae2_mega_things:block/drive/cells/256m_item_cell",
+  "textures": {
+    "cell": "thaumaenergistics:block/drive/essentia_mega_disk_cells",
+    "particle": "thaumaenergistics:block/drive/essentia_mega_disk_cells"
+  }
+}

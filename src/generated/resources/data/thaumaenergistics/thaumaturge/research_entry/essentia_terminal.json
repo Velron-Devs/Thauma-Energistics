@@ -1,0 +1,46 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -2,
+  "icons": [
+    "thaumaenergistics:essentia_terminal"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_terminal.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "aspect": "thaumaturge:cognitio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:digisentia"
+  ],
+  "row": -2,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_terminal.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:parts/essentia_terminal"
+      ],
+      "text": "research.thaumaenergistics.essentia_terminal.stage_1"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "../schema.json",
+  "includes": ["terminal.json"],
+  "text": {
+    "dialog_title": {
+      "text": {
+        "translate": "gui.thaumaenergistics.essentia_terminal"
+      },
+      "position": {
+        "left": 8,
+        "top": 6
+      }
+    }
+  },
+  "terminalStyle": {
+    "supportsAutoCrafting": false
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "megacells:block/drive/cells/4m_item_cell",
+  "textures": {
+    "cell": "thaumaenergistics:block/drive/essentia_mega_cell",
+    "particle": "thaumaenergistics:block/drive/essentia_mega_cell"
+  }
+}

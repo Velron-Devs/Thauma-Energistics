@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "extendedae"
+    },
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "matrix_tiers"
+    },
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "thaumaenergistics:assembler_matrix_speed_brass"
+    },
+    "F": {
+      "item": "ae2:fluix_crystal"
+    },
+    "P": {
+      "item": "thaumaturge:plate_void"
+    },
+    "X": {
+      "item": "thaumaenergistics:void_engineering_processor"
+    }
+  },
+  "pattern": [
+    "PXP",
+    "FCF",
+    "PXP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "thaumaenergistics:assembler_matrix_speed_void"
+  }
+}
