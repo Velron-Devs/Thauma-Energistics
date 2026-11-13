@@ -1,0 +1,45 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -4,
+  "icons": [
+    "thaumaenergistics:essentia_import_bus"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_import_bus.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "aspect": "thaumaturge:motus"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_terminal"
+  ],
+  "row": -2,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_import_bus.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:parts/essentia_import_bus"
+      ],
+      "text": "research.thaumaenergistics.essentia_import_bus.stage_1"
+    }
+  ]
+}

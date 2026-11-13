@@ -1,5 +1,17 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+/*
+!/.gitignore
+!/.github
+!/ChangeLog*.txt
+!/Features.md
+!/LICENSE
+!/README.md
+!/src
+!build.gradle
+!gradle.properties
+!gradlew
+!gradlew.bat
+!settings.gradle
+!CHANGELOG.md
+!gradle
+*.psd
+.cache

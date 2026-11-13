@@ -1,0 +1,23 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "F": "ae2:fluix_dust",
+    "L": "ae2:logic_processor",
+    "Q": "#ae2:all_certus_quartz",
+    "S": "thaumaturge:nugget_quicksilver"
+  },
+  "pattern": [
+    "SSS",
+    "QFL",
+    "SSS"
+  ],
+  "research": {
+    "entry": "thaumaenergistics:digisentia"
+  },
+  "result": {
+    "count": 2,
+    "id": "thaumaenergistics:coalescence_core"
+  },
+  "vis": 10
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": "ae2:export_bus",
+    "C": "thaumaenergistics:coalescence_core"
+  },
+  "pattern": [
+    "C",
+    "B"
+  ],
+  "result": {
+    "id": "thaumaenergistics:essentia_export_bus"
+  }
+}

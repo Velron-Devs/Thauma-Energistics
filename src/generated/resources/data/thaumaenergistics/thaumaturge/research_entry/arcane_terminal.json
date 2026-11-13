@@ -1,0 +1,47 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 2,
+  "icons": [
+    "thaumaenergistics:arcane_terminal"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.arcane_terminal.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:fabrico"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:base_energistics"
+  ],
+  "row": 0,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.arcane_terminal.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:arcane_terminal"
+      ],
+      "text": "research.thaumaenergistics.arcane_terminal.stage_1"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgeusefulutilities"
+    }
+  ],
+  "category": "thaumaenergistics:energistics",
+  "column": -12,
+  "complexity": 3,
+  "icons": [
+    "thaumaenergistics:essentia_cell_infinity"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.infinity_cell.title",
+  "note_aspects": [
+    {
+      "amount": 4,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 4,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:vacuos"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:potentia"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_storage_256k"
+  ],
+  "row": 0,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "thaumaenergistics:essentia_cell_256k"
+        },
+        {
+          "amount": 2,
+          "items": "thaumaenergistics:essentia_component_256k"
+        },
+        {
+          "amount": 2,
+          "items": "thaumaenergistics:diffusion_core"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 3,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.infinity_cell.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:infusion/infinity_cell"
+      ],
+      "text": "research.thaumaenergistics.infinity_cell.stage_1",
+      "warp": 3
+    }
+  ]
+}

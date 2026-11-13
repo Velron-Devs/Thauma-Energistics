@@ -1,0 +1,14 @@
+{
+  "values": [
+    "thaumaenergistics:infusion_provider",
+    "thaumaenergistics:assembler_matrix_crafter_thaumium",
+    "thaumaenergistics:assembler_matrix_pattern_thaumium",
+    "thaumaenergistics:assembler_matrix_speed_thaumium",
+    "thaumaenergistics:assembler_matrix_crafter_brass",
+    "thaumaenergistics:assembler_matrix_pattern_brass",
+    "thaumaenergistics:assembler_matrix_speed_brass",
+    "thaumaenergistics:assembler_matrix_crafter_void",
+    "thaumaenergistics:assembler_matrix_pattern_void",
+    "thaumaenergistics:assembler_matrix_speed_void"
+  ]
+}

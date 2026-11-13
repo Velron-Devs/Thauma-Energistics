@@ -1,0 +1,102 @@
+{
+  "elements": [
+    {
+      "faces": {
+        "north": {
+          "texture": "#flask",
+          "tintindex": 2
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#plate",
+          "tintindex": 3
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#frame"
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#medium",
+          "tintindex": 2
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    },
+    {
+      "faces": {
+        "north": {
+          "texture": "#dark",
+          "tintindex": 1
+        }
+      },
+      "from": [
+        2,
+        2,
+        0
+      ],
+      "to": [
+        14,
+        14,
+        2
+      ]
+    }
+  ],
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "dark": "thaumaenergistics:part/essentia_terminal_dark",
+    "flask": "thaumaenergistics:part/essentia_terminal_flask",
+    "frame": "thaumaenergistics:part/essentia_terminal_frame",
+    "medium": "thaumaenergistics:part/essentia_terminal_medium",
+    "particle": "thaumaenergistics:part/essentia_terminal_flask",
+    "plate": "thaumaenergistics:part/essentia_terminal_plate"
+  }
+}

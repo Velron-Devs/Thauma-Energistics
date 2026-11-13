@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": "thaumaenergistics:coalescence_core",
+    "D": "thaumaenergistics:diffusion_core",
+    "T": "ae2:terminal"
+  },
+  "pattern": [
+    "DTC"
+  ],
+  "result": {
+    "id": "thaumaenergistics:essentia_terminal"
+  }
+}

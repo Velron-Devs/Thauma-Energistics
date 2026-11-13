@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "c": "thaumaenergistics:essentia_component_256k",
+    "h": "ae2:item_cell_housing"
+  },
+  "pattern": [
+    "h",
+    "c"
+  ],
+  "result": {
+    "id": "thaumaenergistics:essentia_cell_256k"
+  }
+}

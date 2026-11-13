@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "thaumaenergistics:feature",
+      "feature": "processors"
+    }
+  ],
+  "type": "ae2:inscriber",
+  "ingredients": {
+    "middle": "thaumaturge:plate_void",
+    "top": "ae2:engineering_processor_press"
+  },
+  "mode": "inscribe",
+  "result": {
+    "id": "thaumaenergistics:printed_void_engineering_processor"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 2,
+  "icons": [
+    "thaumaenergistics:upgrade_arcane"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.arcane_charging_upgrade.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:potentia"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "aspect": "thaumaturge:machina"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:arcane_terminal",
+    "thaumaturge:workbench_charger"
+  ],
+  "row": 2,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "ae2:advanced_card"
+        },
+        {
+          "amount": 1,
+          "items": "thaumaturge:arcane_workbench_charger"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 2,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.arcane_charging_upgrade.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:upgrade_arcane"
+      ],
+      "text": "research.thaumaenergistics.arcane_charging_upgrade.stage_1"
+    }
+  ]
+}

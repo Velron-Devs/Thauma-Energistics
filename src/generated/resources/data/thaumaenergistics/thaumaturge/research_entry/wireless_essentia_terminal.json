@@ -1,0 +1,56 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -2,
+  "icons": [
+    "thaumaenergistics:wireless_essentia_terminal"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.wireless_essentia_terminal.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "aspect": "thaumaturge:potentia"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_terminal"
+  ],
+  "row": -4,
+  "stages": [
+    {
+      "obtain": [
+        {
+          "amount": 1,
+          "items": "ae2:wireless_receiver"
+        },
+        {
+          "amount": 1,
+          "items": "ae2:dense_energy_cell"
+        }
+      ],
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.wireless_essentia_terminal.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:wireless_essentia_terminal"
+      ],
+      "text": "research.thaumaenergistics.wireless_essentia_terminal.stage_1"
+    }
+  ]
+}

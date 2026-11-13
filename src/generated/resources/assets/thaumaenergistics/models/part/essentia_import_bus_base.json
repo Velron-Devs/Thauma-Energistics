@@ -1,0 +1,6 @@
+{
+  "parent": "ae2:part/import_bus_base",
+  "textures": {
+    "front": "thaumaenergistics:part/essentia_import_bus_face"
+  }
+}

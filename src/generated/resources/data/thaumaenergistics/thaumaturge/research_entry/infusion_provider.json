@@ -1,0 +1,50 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": 2,
+  "complexity": 2,
+  "icons": [
+    "thaumaenergistics:infusion_provider"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.infusion_provider.title",
+  "note_aspects": [
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "amount": 3,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:permutatio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:digisentia",
+    "thaumaturge:infusion"
+  ],
+  "row": -2,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 3,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.infusion_provider.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:infusion/infusion_provider"
+      ],
+      "text": "research.thaumaenergistics.infusion_provider.stage_1",
+      "warp": 2
+    }
+  ]
+}

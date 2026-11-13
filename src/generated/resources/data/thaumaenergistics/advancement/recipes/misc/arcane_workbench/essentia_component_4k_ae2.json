@@ -1,0 +1,41 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "thaumaenergistics:feature",
+        "feature": "processors"
+      }
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient_base": {
+      "conditions": {
+        "items": [
+          {
+            "items": "ae2:logic_processor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumaenergistics:arcane_workbench/essentia_component_4k_ae2"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_base"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumaenergistics:arcane_workbench/essentia_component_4k_ae2"
+    ]
+  }
+}

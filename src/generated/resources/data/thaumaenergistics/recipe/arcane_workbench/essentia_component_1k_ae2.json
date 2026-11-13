@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:not",
+      "value": {
+        "type": "thaumaenergistics:feature",
+        "feature": "processors"
+      }
+    }
+  ],
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "P": "ae2:logic_processor",
+    "Q": "#ae2:all_certus_quartz",
+    "S": "thaumaturge:salis_mundus"
+  },
+  "pattern": [
+    "SQS",
+    "QPQ",
+    "SQS"
+  ],
+  "research": {
+    "entry": "thaumaenergistics:essentia_storage_1k"
+  },
+  "result": {
+    "id": "thaumaenergistics:essentia_component_1k"
+  },
+  "vis": 10
+}

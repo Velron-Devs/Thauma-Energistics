@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [],
+  "key": {
+    "E": "ae2:dense_energy_cell",
+    "R": "ae2:wireless_receiver",
+    "T": "thaumaenergistics:arcane_terminal"
+  },
+  "pattern": [
+    "R",
+    "T",
+    "E"
+  ],
+  "research": {
+    "entry": "thaumaenergistics:wireless_arcane_terminal"
+  },
+  "result": {
+    "id": "thaumaenergistics:wireless_arcane_terminal"
+  },
+  "vis": 50
+}

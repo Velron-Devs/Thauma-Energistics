@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_component": {
+      "conditions": {
+        "items": [
+          {
+            "items": "thaumaenergistics:essentia_component_1k"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "thaumaenergistics:cells/essentia_cell_1k"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_component"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "thaumaenergistics:cells/essentia_cell_1k"
+    ]
+  }
+}

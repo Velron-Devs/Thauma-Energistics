@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thaumaenergistics:item/processor/void_engineering_processor"
+  }
+}

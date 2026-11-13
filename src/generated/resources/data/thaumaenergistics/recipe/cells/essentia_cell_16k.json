@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": "ae2:quartz_glass",
+    "b": "#c:dusts/redstone",
+    "c": "thaumaenergistics:essentia_component_16k",
+    "d": "#c:ingots/iron"
+  },
+  "pattern": [
+    "aba",
+    "bcb",
+    "ddd"
+  ],
+  "result": {
+    "id": "thaumaenergistics:essentia_cell_16k"
+  }
+}

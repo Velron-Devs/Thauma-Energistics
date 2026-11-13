@@ -1,0 +1,45 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "thaumaturgeusefulutilities"
+    }
+  ],
+  "type": "thaumaturge:infusion",
+  "aspects": [
+    {
+      "amount": 50,
+      "aspect": "thaumaturgeusefulutilities:terminus"
+    },
+    {
+      "amount": 60,
+      "aspect": "thaumaturge:vacuos"
+    },
+    {
+      "amount": 50,
+      "aspect": "thaumaturge:praecantatio"
+    },
+    {
+      "amount": 40,
+      "aspect": "thaumaturge:potentia"
+    },
+    {
+      "amount": 40,
+      "aspect": "thaumaturge:machina"
+    }
+  ],
+  "catalyst": "thaumaenergistics:essentia_cell_256k",
+  "components": [
+    "thaumaenergistics:essentia_component_256k",
+    "thaumaenergistics:diffusion_core",
+    "thaumaenergistics:essentia_component_256k",
+    "thaumaenergistics:diffusion_core"
+  ],
+  "instability": 8,
+  "research": {
+    "entry": "thaumaenergistics:infinity_cell"
+  },
+  "result": {
+    "id": "thaumaenergistics:essentia_cell_infinity"
+  }
+}

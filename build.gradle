@@ -1,0 +1,176 @@
+plugins {
+    id 'java-library'
+    id 'idea'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+version = minecraft_version + "-" + mod_version + "-" + tag_lanzador
+group = mod_group_id
+
+base {
+    archivesName = mod_name
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.compilerArgs << '-Xmaxerrs' << '5000'
+}
+
+neoForge {
+    version = project.neo_version
+
+    runs {
+        client {
+            client()
+            if (project.hasProperty('quickPlayWorld')) {
+                programArguments.addAll '--quickPlaySingleplayer', project.property('quickPlayWorld')
+            }
+        }
+        clientData {
+            clientData()
+            programArguments.addAll '--mod', mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+        configureEach {
+            systemProperty 'forge.logging.markers', 'REGISTRIES'
+            logLevel = org.slf4j.event.Level.DEBUG
+        }
+    }
+
+    mods {
+        "${mod_id}" {
+            sourceSet(sourceSets.main)
+        }
+    }
+}
+
+sourceSets.main.resources {
+    srcDir 'src/generated/resources'
+    exclude '**/.cache'
+}
+
+sourceSets.main.java {
+    exclude 'velrondev/thaumaenergistics/compat/ae2things/**', 'velrondev/thaumaenergistics/compat/ae2megathings/**', 'velrondev/thaumaenergistics/compat/megacells/**'
+}
+
+configurations {
+    runtimeClasspath.extendsFrom localRuntime
+}
+
+repositories {
+    mavenLocal()
+    maven { url = 'https://maven.blamejared.com' }
+    maven { url = 'https://maven.theillusivec4.top/' }
+    exclusiveContent {
+        forRepository {
+            maven { url = 'https://cursemaven.com' }
+        }
+        filter {
+            includeGroup 'curse.maven'
+        }
+    }
+    exclusiveContent {
+        forRepository {
+            maven { url = 'https://api.modrinth.com/maven' }
+        }
+        filter {
+            includeGroup 'maven.modrinth'
+        }
+    }
+}
+
+def ae2wtlibApi = files(provider {
+    configurations.detachedConfiguration(dependencies.create("curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"))
+        .files.collect { zipTree(it).matching { include 'META-INF/jarjar/*ae2wtlib_api*.jar' } }
+})
+
+dependencies {
+    compileOnly "maven.modrinth:ae2:${ae2_version}"
+    localRuntime "maven.modrinth:ae2:${ae2_version}"
+
+    compileOnly "curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"
+    compileOnly ae2wtlibApi
+    localRuntime "curse.maven:applied-energistics-2-wireless-terminals-459929:${ae2wtlib_version_id}"
+
+    compileOnly "maven.modrinth:guideme:${guideme_version}"
+    localRuntime "maven.modrinth:guideme:${guideme_version}"
+
+    compileOnly "maven.modrinth:lithostitched:${lithostitched_version}"
+    localRuntime "maven.modrinth:lithostitched:${lithostitched_version}"
+
+    compileOnly "curse.maven:thaumaturge-1628024:${thaumaturge_version_id}"
+    localRuntime "curse.maven:thaumaturge-1628024:${thaumaturge_version_id}"
+
+    compileOnly "maven.modrinth:curios:${curios_version}"
+    localRuntime "maven.modrinth:curios:${curios_version}"
+
+    compileOnly "curse.maven:extendedae-892005:${extendedae_version_id}"
+    localRuntime "curse.maven:extendedae-892005:${extendedae_version_id}"
+
+    compileOnly "maven.modrinth:glodium:${glodium_version}"
+    localRuntime "maven.modrinth:glodium:${glodium_version}"
+
+    compileOnly "maven.modrinth:advancedae:${advancedae_version}"
+    localRuntime "maven.modrinth:advancedae:${advancedae_version}"
+    localRuntime "maven.modrinth:geckolib:${geckolib_version}"
+
+    compileOnly "mezz.jei:jei-${minecraft_version}-neoforge-api:${jei_version}"
+
+    switch (runtime_itemlist_mod) {
+        case "jei":
+            runtimeOnly "mezz.jei:jei-${minecraft_version}-neoforge:${jei_version}"
+            break
+    }
+
+    switch (runtime_probe_mod) {
+        case "jade":
+            runtimeOnly "maven.modrinth:jade:${jade_version}"
+            break
+    }
+}
+
+processResources {
+    duplicatesStrategy = DuplicatesStrategy.INCLUDE
+    exclude '**/.gitkeep'
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_named              : mod_named,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description,
+            extendedae_version     : extendedae_version,
+            advancedae_version     : advancedae_version,
+    ]
+    inputs.properties replaceProperties
+    filesMatching('META-INF/neoforge.mods.toml') {
+        expand replaceProperties
+    }
+}
+
+tasks.named('jar', Jar).configure {
+    manifest {
+        attributes([
+            "Specification-Title"   : mod_name,
+            "Specification-Vendor"  : mod_authors,
+            "Specification-Version" : "1",
+            "Implementation-Title"  : project.name,
+            "Implementation-Version": project.version,
+            "Implementation-Vendor" : mod_authors,
+        ])
+    }
+}
+
+idea {
+    module {
+        downloadSources = true
+        downloadJavadoc = true
+    }
+}

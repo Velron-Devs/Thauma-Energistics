@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "ae2wtlib"
+    }
+  ],
+  "type": "ae2wtlib:combine",
+  "terminalA": "thaumaenergistics:wireless_essentia_terminal",
+  "terminalAName": "essentia",
+  "terminalB": "ae2:wireless_crafting_terminal",
+  "terminalBName": "crafting"
+}

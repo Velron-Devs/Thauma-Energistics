@@ -1,0 +1,45 @@
+{
+  "category": "thaumaenergistics:energistics",
+  "column": -8,
+  "icons": [
+    "thaumaenergistics:essentia_storage_bus"
+  ],
+  "meta": [
+    "round"
+  ],
+  "name": "research.thaumaenergistics.essentia_storage_bus.title",
+  "note_aspects": [
+    {
+      "amount": 2,
+      "aspect": "thaumaturge:machina"
+    },
+    {
+      "aspect": "thaumaturge:vacuos"
+    },
+    {
+      "aspect": "thaumaturge:permutatio"
+    }
+  ],
+  "parents": [
+    "thaumaenergistics:essentia_export_bus"
+  ],
+  "row": -2,
+  "stages": [
+    {
+      "required_knowledge": [
+        {
+          "type": "theory",
+          "amount": 1,
+          "category": "thaumaenergistics:energistics"
+        }
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_bus.stage_0"
+    },
+    {
+      "recipes": [
+        "thaumaenergistics:parts/essentia_storage_bus"
+      ],
+      "text": "research.thaumaenergistics.essentia_storage_bus.stage_1"
+    }
+  ]
+}

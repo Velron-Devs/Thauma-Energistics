@@ -1,0 +1,17 @@
+{
+  "blocks": [
+    "ae2:controller",
+    "ae2:interface",
+    "ae2:quartz_glass"
+  ],
+  "items": [
+    "ae2:controller",
+    "ae2:interface",
+    "ae2:certus_quartz_crystal",
+    "ae2:fluix_crystal",
+    "ae2:logic_processor",
+    "ae2:calculation_processor",
+    "ae2:engineering_processor"
+  ],
+  "key": "thaumaenergistics:f_ae_core"
+}
